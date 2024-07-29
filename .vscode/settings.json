@@ -2,6 +2,7 @@
     "editor.fontSize": 14,
     "workbench.colorTheme": "Noctis Minimus",
     "terminal.integrated.fontSize": 12,
-    "python.defaultInterpreterPath": "/home/yelf/pyEnv/tf2.16/bin/python3",
-    "python.terminal.activateEnvInCurrentTerminal": true
+    "python.defaultInterpreterPath": "/home/yelf/pyEnv/bin/python3",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "remote.autoForwardPortsFallback": 0
 }
