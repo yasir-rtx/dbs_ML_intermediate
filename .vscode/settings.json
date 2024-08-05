@@ -2,7 +2,6 @@
     "editor.fontSize": 14,
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "terminal.integrated.fontSize": 12,
-    "python.defaultInterpreterPath": "/home/yelf/pyEnv/bin/python3",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "remote.autoForwardPortsFallback": 0
 }
