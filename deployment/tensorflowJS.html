@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tensorflow JS</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <script>
+        const input = tf.input({shape: [256]});
+        const dense1 = tf.layers.dense({units: 24, activation: ’relu’}) .apply(input);
+        const dense2 = tf.layers.dense({units:5, activation: ‘softmax’ }) .apply(dense1);
+        
+        const model = tf.model({inputs: input, output: dense2});
+    </script>
+</body>
+</html>
